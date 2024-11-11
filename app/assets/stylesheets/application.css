@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+ .letter-border {
+  display: flex;
+  gap: 10px;
+}
+
+.letterall {
+  width: 32px;
+  border-style: double;
+  height: 32px;
+  border-color: black;
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 5px;
+}
